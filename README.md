@@ -9,7 +9,8 @@ included in the repository is the lambda code (Lambda.py) to download reports, p
 ### Packages required
 The code requires additional python3 packages Robobrowser, boto3 and email. However they have been packages in the zip file in the repository so you just need to upload the zip file to aws lambda to run the function.
 
-##parameters
+## Parameters
+
 EmailPassword: Encrypted password for the email senders email address.
 
 EmailRecipient: Receiver of the report email.
